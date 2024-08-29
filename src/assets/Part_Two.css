@@ -1,0 +1,39 @@
+
+.dropdown1{
+    display: block;
+}
+.btn{
+    display: block;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black; 
+    padding-top: 10px;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    margin: auto !important;
+}
+.header{
+    text-align: left;
+}
+.updatebtn{
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #025c5f;
+    cursor: pointer;
+}

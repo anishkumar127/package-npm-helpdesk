@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:global{
+    .quill{
+     .ql-container{
+       .ql-editor{
+         min-height: 100px !important;
+       }
+     } 
+    }
+}
+.mainContainer{
+    display: block;
+    width: 100%;
+}
+.Container1{
+    display: block;
+    width: 100%;
+}
+.Container2{
+    display: block;
+    padding-top: 20px;
+}
+.Container3{
+    display: block;
+    padding-top: 15px;
+}
+.testpopup{
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.testpopup1{
+    text-align: right;
+}
+.editicon{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+    color: var(--lightdarkColor) !important;
+    display: flex;
+    align-items: center !important;
+}
+.divOne{
+    display: flex;
+}
+.divTwo{
+    display: block;
+}
+.divThree{
+    display: flex;
+}
+.created{
+    font-size: 13px !important;
+    font-weight: 600;
+}
+.author{
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+}
+.leftdiv{
+    display: block;
+}
+.subContainer1{
+    background-color: #025c5f;
+    line-height: 25px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.rightdiv{
+    display: block;
+}
+.reactquill{
+    height: 100%;
+}
+.quillmbstyleborder{
+    font-style: normal !important;
+    line-height: 1 !important;
+}
+.para1{
+    padding-top: 12px;
+}
+.para2{
+    padding-bottom: 25px;
+}
+.ql-snow{
+    padding-bottom: 40px;
+}
+.div1{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 6px;
+    background-color: hsla(0, 0%, 80%, .3803921568627451);
+}
+.text1{
+    font-size: 14px;
+}
+.details{
+    display: flex;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+}
+.div2{
+    display: block;
+    border: 0.5px solid hsla(0, 0%, 80%, .3803921568627451);
+    min-height: 100px !important;
+}
+.textarea{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.leftlogo{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    justify-content: space-between;
+}
+.container3div1{
+    display: flex;
+}
+.reply{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.container3div1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #03787c40;
+}
+.container3div2{
+    display: flex;
+}
+.droparrow{
+    display: flex;
+    align-items: center;
+}

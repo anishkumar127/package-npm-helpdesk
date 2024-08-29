@@ -1,0 +1,83 @@
+.sec{
+    border: 0.5px solid black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 0%, 80%, 0.3803921569);
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.profile{
+    padding-top: 5px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 15px;
+    align-items: center;
+}
+.image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0.1px solid black;
+}
+.bio{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Phone{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.assignment,.tickets{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.asset1{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+    width: 90%;
+    margin: auto;
+    padding: 9px;
+}
+span{
+    color: #025c5f;
+}
+.ticket{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+    width: 90%;
+    margin: auto;
+    gap: 5px;
+    padding: 6px;
+}
